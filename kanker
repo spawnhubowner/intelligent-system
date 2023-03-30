@@ -1,0 +1,533 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Spawn hub | FiveR - Hulpdiensten Nederland!", HidePremium = false, Intro = false, IntroText = "Spawn Hub", SaveConfig = true, ConfigFolder = "TutorialConfig"})
+_G.teleports = true
+_G.misc = true
+function Villa()
+    game:GetService("ReplicatedStorage").Villa.Jezelfnaarbinnen:FireServer()
+end
+function WapenLoods()
+game:GetService("ReplicatedStorage").Loods.Jezelfnaarbinnen:FireServer()
+end
+function CokeLoods()
+    game:GetService("ReplicatedStorage").Loods2.Jezelfnaarbinnen:FireServer()
+end
+function PlantenLoods()
+    game:GetService("ReplicatedStorage").Loods1.Jezelfnaarbinnen:FireServer()
+end
+function Apartments()
+    game:GetService("ReplicatedStorage").Apartments.Jezelfnaarbinnen:FireServer()
+end
+function Huurwinkel()
+    game:GetService("ReplicatedStorage").Huurwinkels.Jezelfnaarbinnen:FireServer()
+end
+function zolder()
+	game:GetService("ReplicatedStorage").Zolder.Jezelfnaarbinnen:FireServer()
+end
+function GroteCardealer()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3580, 5, -0)
+end
+function tweehands()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3900, 5, 220)
+end
+function SpamTwitter()
+    local args = {
+        [1] = "\13\n\226\150\136\226\150\128\226\128\131\226\150\136\226\150\128\226\150\136\226\128\131\226\150\132\226\150\128\226\150\136\226\128\131\226\150\136\226\150\145\226\150\136\226\150\145\226\150\136\226\128\131\226\150\136\226\150\132\226\150\145\226\150\136\226\128\131 \226\128\131\226\150\136\226\150\145\226\150\136\226\128\131\226\150\136\226\150\145\226\150\136\226\128\131\226\150\136\226\150\132\226\150\132\226\128\131 \226\128\131\226\150\136\226\150\128\226\150\136\226\128\131\226\150\136\226\150\132\226\150\145\226\150\136\226\128\131 \226\128\131\226\150\128\226\150\136\226\150\128\226\128\131\226\150\136\226\150\128\226\150\136\226\128\131\226\150\136\226\150\128\226\150\136\13\n\226\150\132\226\150\136\226\128\131\226\150\136\226\150\128\226\150\128\226\128\131\226\150\136\226\150\128\226\150\136\226\128\131\226\150\128\226\150\132\226\150\128\226\150\132\226\150\128\226\128\131\226\150\136\226\150\145\226\150\128\226\150\136\226\128\131 \226\128\131\226\150\136\226\150\128\226\150\136\226\128\131\226\150\136\226\150\132\226\150\136\226\128\131\226\150\136\226\150\132\226\150\136\226\128\131 \226\128\131\226\150\136\226\150\132\226\150\136\226\128\131\226\150\136\226\150\145\226\150\128\226\150\136\226\128\131 \226\128\131\226\150\145\226\150\136\226\150\145\226\128\131\226\150\136\226\150\132\226\150\136\226\128\131\226\150\136\226\150\128\226\150\128"
+    }
+    
+    game:GetService("ReplicatedStorage").TwitterPost:FireServer(unpack(args))    
+end
+function M17()
+    local args = {
+        [1] = "/sg M17",
+        [2] = "All"
+    }
+    
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+      
+end
+function opnemen1000()
+    local args = {
+        [1] = "1000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+end
+function opnemen5000()
+    local args = {
+        [1] = "5000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+end
+function opnemen10000()
+    local args = {
+        [1] = "10000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function opnemen20000()
+    local args = {
+        [1] = "20000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function opnemen50000()
+    local args = {
+        [1] = "50000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function opnemen500000()
+    local args = {
+        [1] = "500000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function opnemen1000000()
+    local args = {
+        [1] = "1000000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function opnemen5000000()
+    local args = {
+        [1] = "5000000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function opnemen10000000()
+    local args = {
+        [1] = "10000000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Opnemen:FireServer(unpack(args))    
+
+end
+function storten1000()
+    local args = {
+        [1] = "1000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten5000()
+    local args = {
+        [1] = "5000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten10000()
+    local args = {
+        [1] = "10000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten20000()
+    local args = {
+        [1] = "20000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten50000()
+    local args = {
+        [1] = "50000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten500000()
+    local args = {
+        [1] = "500000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+end
+function storten1000000()
+    local args = {
+        [1] = "1000000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten5000000()
+    local args = {
+        [1] = "5000000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function storten10000000()
+    local args = {
+        [1] = "10000000"
+    }
+    
+    game:GetService("ReplicatedStorage").Geldmaat.Storten:FireServer(unpack(args))    
+
+end
+function appiegreenzone()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1732, 4, 1053)
+end
+function kleincardealer()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1337, 5, 1214)
+end
+function respawnx()
+    game.ReplicatedStorage.Lifepak.Antiexploit:FireServer(game.Players.LocalPlayer)
+end
+function antcheat()
+    game.Workspace[game.Players.LocalPlayer.Name].MedSys:Destroy()
+    game.Workspace[game.Players.LocalPlayer.Name].ACS_Client:Destroy()
+    game:GetService("StarterPlayer").StarterCharacterScripts.MedSys:Destroy()
+    game:GetService("StarterPlayer").StarterCharacterScripts["ACS_Client"]:Destroy()
+end
+function infyield()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end
+function rainbowcar()
+    local ohString1 = "Rood"
+local ohString2 = "Oranje"
+local ohString3 = "Geel"
+local ohString4 = "Groen"
+local ohString5 = "Blauw"
+local ohString6 = "Paars"
+local ohString7 = "Roze"
+while true do
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString1)
+wait(1)
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString2)
+wait(1)
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString3)
+wait(1)
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString4)
+wait(1)
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString5)
+wait(1)
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString6)
+wait(1)
+game:GetService("ReplicatedStorage").ANWBGARAGE.ANWBGARAGE:FireServer(ohString7)
+wait(1)
+end
+end
+function combatweghalen()
+	game:GetService("Players").LocalPlayer.PlayerGui.Combatlog:Destroy()
+end
+function Rejoin()
+	loadstring(game:HttpGet('https://pastebin.com/raw/yVdXMaFy'))()
+end
+function ExplosiefShop()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1375, 5, 515)
+end
+function Ziekehuis()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1375, 5, 308)
+end
+function anwb()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4045, 5, -475)
+end
+function postnl()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3845,5,-1050)
+end
+function politiebureau()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3494,5,-3434)
+end
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local pinnenTab = Window:MakeTab({
+	Name = "Pinnen",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local teleportsTab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local MiscTab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local funTab = Window:MakeTab({
+	Name = "Fun",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+teleportsTab:AddLabel("Deze locaties moet je hebben")
+teleportsTab:AddButton({
+	Name = "Villa",
+	Callback = function()
+      		Villa()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Wapen Loods",
+	Callback = function()
+      		WapenLoods()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Coke Loods",
+	Callback = function()
+      		CokeLoods()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Planten Loods",
+	Callback = function()
+      		PlantenLoods()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Appartement",
+	Callback = function()
+      		Apartments()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Huur winkel",
+	Callback = function()
+      		Huurwinkel()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Zolder",
+	Callback = function()
+      		zolder()
+  	end    
+})
+teleportsTab:AddLabel("Deze locaties hoef je niet te hebben")
+teleportsTab:AddButton({
+	Name = "wijk",
+	Callback = function()
+        appiegreenzone()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Kleine Car dealer",
+	Callback = function()
+        kleincardealer()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "ExplosiefShop",
+	Callback = function()
+        ExplosiefShop()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Ziekehuis",
+	Callback = function()
+        Ziekehuis()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Grote Car Dealer",
+	Callback = function()
+        GroteCardealer()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "2e Hands",
+	Callback = function()
+        tweehands()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "anwb",
+	Callback = function()
+        anwb()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "PostNL",
+	Callback = function()
+        postnl()
+  	end    
+})
+teleportsTab:AddButton({
+	Name = "Politie bureau",
+	Callback = function()
+        politiebureau()
+  	end    
+})
+MiscTab:AddLabel("Twitter Stuurt in twitter Spawn Hub on top")
+MiscTab:AddButton({
+	Name = "Twitter",
+	Callback = function()
+      		SpamTwitter()
+  	end    
+})
+MiscTab:AddLabel("Respawn")
+MiscTab:AddButton({
+	Name = "Respawn",
+	Callback = function()
+      		respawnx()
+  	end    
+})
+MiscTab:AddLabel("Schakel Anticheat uit om te vliegen en flingen")
+MiscTab:AddButton({
+	Name = "Delete Anticheat",
+	Callback = function()
+      		antcheat()
+  	end    
+})
+MiscTab:AddLabel("Gebruik fly alleen als je de anti cheat hebt gedelete)")
+MiscTab:AddButton({
+	Name = "Inf yield",
+	Callback = function()
+      		infyield()
+  	end    
+})
+MiscTab:AddLabel("Rejoin de zelfde server")
+MiscTab:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+      		Rejoin()
+  	end    
+})
+pinnenTab:AddLabel("Opnemen")
+pinnenTab:AddButton({
+	Name = "1000",
+	Callback = function()
+      		opnemen1000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "5000",
+	Callback = function()
+      		opnemen5000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "10000",
+	Callback = function()
+        opnemen10000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "20000",
+	Callback = function()
+        opnemen20000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "50000",
+	Callback = function()
+        opnemen50000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "1000000",
+	Callback = function()
+        opnemen1000000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "5000000",
+	Callback = function()
+        opnemen5000000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "10000000",
+	Callback = function()
+        opnemen10000000()
+  	end    
+})
+pinnenTab:AddLabel("Storten")
+pinnenTab:AddButton({
+	Name = "1000",
+	Callback = function()
+      		storten1000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "5000",
+	Callback = function()
+      		storten5000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "10000",
+	Callback = function()
+      		storten10000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "20000",
+	Callback = function()
+      		storten20000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "50000",
+	Callback = function()
+      		storten50000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "1000000",
+	Callback = function()
+      		storten1000000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "5000000",
+	Callback = function()
+      		storten5000000()
+  	end    
+})
+pinnenTab:AddButton({
+	Name = "10000000",
+	Callback = function()
+      		storten10000000()
+  	end    
+})
+funTab:AddButton({
+	Name = "Rainbow Car",
+	Callback = function()
+      		rainbowcar()
+  	end    
+})
+MiscTab:AddLabel("Dit verwijderd de combat message als je dood bent.")
+MiscTab:AddButton({
+	Name = "Combat Message Weghalen",
+	Callback = function()
+		combatweghalen()
+  	end    
+})
+MainTab:AddLabel("Thanks voor het gebruiken van deze gui!")
+MainTab:AddLabel("Later zal ik sws meer updates doen, Maak ook een ticket")
+MainTab:AddLabel("aan als je ideeen hebt.")
+MainTab:AddLabel("Discord is gemaakt door FiveR Services#4544")
+MainTab:AddButton({
+    Name = "discord",
+    Callback = function()
+              setclipboard("https://discord.gg/QTTbE9r3mB")
+      end
+})
+MainTab:AddLabel("-- Made by robloxexploits#6772")
+OrionLib:Init()
